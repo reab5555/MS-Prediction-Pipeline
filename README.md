@@ -19,6 +19,10 @@ The dataset used in this project contains anonymized patient information from Ha
 - EDSS scores (Target)
 - Treatment response (yes/no) (Target)
 
+
+<img src="appendix/flow_simple.png" width="700">
+<img src="appendix/flow_complex.png" width="700">
+
 ## MS Prediction Pipeline: ML Engineering and MLOps Framework
 This project exemplifies a comprehensive ML engineering and MLOps framework, incorporating best practices for developing, deploying, and maintaining machine learning models at scale. 
 
@@ -116,37 +120,5 @@ This framework addresses the full lifecycle of ML projects, from data preparatio
 - **Pipeline Orchestration**: Apache Airflow
 - **Containerization**: Docker
 - **Cloud Infrastructure**: Amazon EMR, Amazon Redshift
-
-## Project Structure
-ms-treatment-response-prediction/
-│
-├── airflow_dags/
-│   └── etl_ml_pipeline.py
-│
-├── configs/
-│   ├── cloud_config.py
-│   └── utils.py
-│
-├── prepare_data/
-│   ├── extraction.py
-│   ├── transform_general.py
-│   └── transform_ml.py
-│
-├── mlop/
-│   ├── ml_train_eval.py
-│   ├── mlflow_config.py
-│   └── deploy.py
-│
-├── notebooks/
-│   ├── exploratory_data_analysis.ipynb
-│   └── model_prototyping.ipynb
-│
-├── tests/
-│   ├── test_data_preparation.py
-│   └── test_model_performance.py
-│
-├── Dockerfile
-├── requirements.txt
-└── README.md
 
 
