@@ -34,13 +34,9 @@ Stores processed data in Parquet format, optimizing for ML workflows.
 
 3. Model Development
 
-Model Training and Evaluation:
-
 Leverages MLflow for experiment tracking, enabling reproducibility and version control.
 Implements multiple model architectures (Decision Trees, Random Forests, Gradient Boosting) to compare performance.
 Utilizes cross-validation and hyperparameter tuning for robust model selection.
-
-
 
 4. Model Deployment
 
