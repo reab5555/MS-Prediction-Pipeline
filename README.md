@@ -28,7 +28,7 @@ This project exemplifies a comprehensive ML engineering and MLOps framework, inc
   <tr>
     <td>
       <table>
-        <img src="appendix/flow_complex.png" width="500">
+        <img src="appendix/flow_complex.png" width="700">
       </table>
     </td>
     <td>
