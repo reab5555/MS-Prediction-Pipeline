@@ -16,11 +16,12 @@ The dataset used in this project contains anonymized patient information from Ha
 - MS type (Relapsing-Remitting, Secondary Progressive, Primary Progressive)
 - Current treatment
 - MRI data (lesion count, white brain matter volume)
-- EDSS scores
-- Treatment response (yes/no)
+- EDSS scores (Target)
+- Treatment response (yes/no) (Target)
 
 ## MS Prediction Pipeline: ML Engineering and MLOps Framework
-This project exemplifies a comprehensive ML engineering and MLOps framework, incorporating best practices for developing, deploying, and maintaining machine learning models at scale. Here's how it aligns with key ML engineering and MLOps principles:
+This project exemplifies a comprehensive ML engineering and MLOps framework, incorporating best practices for developing, deploying, and maintaining machine learning models at scale. 
+
 1. Data Engineering
 
 Data Extraction: Utilizes Amazon S3 for raw data storage, demonstrating cloud-based data management.
