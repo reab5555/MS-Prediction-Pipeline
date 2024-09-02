@@ -1,8 +1,5 @@
 # MS Prediction Pipeline
 
-
-# MS Treatment Response Prediction Framework
-
 ## Project Overview
 
 This framework demonstrates an end-to-end machine learning pipeline for predicting Multiple Sclerosis (MS) treatment response and EDSS (Expanded Disability Status Scale) scores. The project utilizes patient data from Hadassah Ein Karem Hospital in Jerusalem to build predictive models that can assist healthcare professionals in making informed decisions about MS treatment.
