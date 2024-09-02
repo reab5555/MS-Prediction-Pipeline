@@ -15,7 +15,7 @@ The dataset used in this project contains anonymized patient information from Ha
 - Demographic information (age, gender)
 - MS type (Relapsing-Remitting, Secondary Progressive, Primary Progressive)
 - Current treatment
-- MRI data (lesion count, white brain matter volume)
+- MRI data (Lesion, WB)
 - EDSS scores (Target)
 - Treatment response (yes/no) (Target)
 
