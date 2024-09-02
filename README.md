@@ -19,11 +19,13 @@ The dataset used in this project contains anonymized patient information from Ha
 - EDSS scores (Target)
 - Treatment response (yes/no) (Target)
 
-<img src="appendix/flow_complex.png" width="700">
-<img src="appendix/flow_simple.png" width="700">
+
 
 ## MS Prediction Pipeline: ML Engineering and MLOps Framework
 This project exemplifies a comprehensive ML engineering and MLOps framework, incorporating best practices for developing, deploying, and maintaining machine learning models at scale. 
+
+<img src="appendix/flow_complex.png" width="700">
+<img src="appendix/flow_simple.png" width="700">
 
 #### 1. Data Engineering
 
