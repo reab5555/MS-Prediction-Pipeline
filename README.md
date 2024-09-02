@@ -46,7 +46,6 @@ Deploys models via Flask APIs, allowing for scalable and manageable serving infr
 Implements Gradio for interactive web interfaces, enhancing model interpretability and user engagement.
 
 
-
 5. MLOps Practices
 
 Pipeline Orchestration:
@@ -54,35 +53,19 @@ Pipeline Orchestration:
 Uses Apache Airflow for end-to-end pipeline automation, crucial for production ML workflows.
 Enables scheduled retraining, ensuring models stay up-to-date with new data.
 
-
 Containerization:
 
 Dockerfile inclusion supports containerized deployment, ensuring consistency across environments.
-
 
 Version Control:
 
 Structured project layout facilitates collaborative development and version control.
 
-
-
-6. Monitoring and Maintenance
-
-While not explicitly detailed, the framework allows for easy integration of monitoring tools to track model performance and data drift over time.
-
-7. Scalability and Cloud Integration
+6. Scalability and Cloud Integration
 
 Utilizes Amazon EMR and Redshift, demonstrating cloud-native architecture for scalable ML operations.
 
-8. Testing and Quality Assurance
-
-Includes a tests/ directory, indicating a focus on code quality and model performance validation.
-
-9. Documentation and Reproducibility
-
-Comprehensive README and project structure promote knowledge sharing and project reproducibility.
-
-10. Continuous Integration/Continuous Deployment (CI/CD)
+7. Continuous Integration/Continuous Deployment (CI/CD)
 
 The project structure and use of Airflow set the stage for implementing CI/CD pipelines for model updates.
 
