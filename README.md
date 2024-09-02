@@ -22,23 +22,23 @@ The dataset used in this project contains anonymized patient information from Ha
 ## MS Prediction Pipeline: ML Engineering and MLOps Framework
 This project exemplifies a comprehensive ML engineering and MLOps framework, incorporating best practices for developing, deploying, and maintaining machine learning models at scale. 
 
-1. Data Engineering
+#### 1. Data Engineering
 
 Data Extraction: Utilizes Amazon S3 for raw data storage, demonstrating cloud-based data management.
 Data Transformation: Implements robust data cleaning, normalization, and feature engineering using Apache Spark, showcasing big data processing capabilities.
 
-2. Feature Engineering
+#### 2. Feature Engineering
 
 ML Data Preparation: Applies advanced feature selection, encoding, and scaling techniques, crucial for model performance.
 Stores processed data in Parquet format, optimizing for ML workflows.
 
-3. Model Development
+#### 3. Model Development
 
 Leverages MLflow for experiment tracking, enabling reproducibility and version control.
 Implements multiple model architectures (Decision Trees, Random Forests, Gradient Boosting) to compare performance.
 Utilizes cross-validation and hyperparameter tuning for robust model selection.
 
-4. Model Deployment
+#### 4. Model Deployment
 
 Model Serving:
 
@@ -46,7 +46,7 @@ Deploys models via Flask APIs, allowing for scalable and manageable serving infr
 Implements Gradio for interactive web interfaces, enhancing model interpretability and user engagement.
 
 
-5. MLOps Practices
+#### 5. MLOps Practices
 
 Pipeline Orchestration:
 
@@ -61,11 +61,11 @@ Version Control:
 
 Structured project layout facilitates collaborative development and version control.
 
-6. Scalability and Cloud Integration
+#### 6. Scalability and Cloud Integration
 
 Utilizes Amazon EMR and Redshift, demonstrating cloud-native architecture for scalable ML operations.
 
-7. Continuous Integration/Continuous Deployment (CI/CD)
+#### 7. Continuous Integration/Continuous Deployment (CI/CD)
 
 The project structure and use of Airflow set the stage for implementing CI/CD pipelines for model updates.
 
