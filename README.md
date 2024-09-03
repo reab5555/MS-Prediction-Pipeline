@@ -2,7 +2,7 @@
 
 ## Project Overview
 
-This framework demonstrates an end-to-end machine learning pipeline for predicting Multiple Sclerosis (MS) treatment response and EDSS (Expanded Disability Status Scale) scores. The project utilizes patient data from Hadassah Ein Karem Hospital in Jerusalem to build predictive models that can assist healthcare professionals in making informed decisions about MS treatment.
+This framework demonstrates an end-to-end machine learning pipeline for predicting Multiple Sclerosis (MS) treatment response. The project utilizes patient data from Hadassah Ein Karem Hospital in Jerusalem to build predictive models that can assist healthcare professionals in making informed decisions about MS treatment.
 
 ## What is Multiple Sclerosis (MS)?
 
@@ -16,7 +16,7 @@ The dataset used in this project contains anonymized patient information from Ha
 - MS type (Relapsing-Remitting, Secondary Progressive, Primary Progressive)
 - Current treatment
 - MRI data (Lesion, WB)
-- EDSS scores (Target)
+- EDSS (1-8)
 - Treatment response (yes/no) (Target)
 
 ---
@@ -131,7 +131,7 @@ This framework addresses the full lifecycle of ML projects, from data preparatio
 - **ML Framework**: MLflow, scikit-learn
 - **Model Serving**: Flask, Gradio
 - **Pipeline Orchestration**: Apache Airflow
-- **Containerization**: Docker
+- **Containerization**: Docker, Amazon ECR
 - **Cloud Infrastructure**: Amazon EMR, Amazon Redshift
 
 
