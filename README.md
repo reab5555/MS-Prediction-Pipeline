@@ -126,12 +126,12 @@ This framework addresses the full lifecycle of ML projects, from data preparatio
 
 ## Technology Stack
 
-- **Data Storage**: Amazon S3, Parquet
+- **Data Storage**: Amazon S3, Amazon Redshift, Parquet
 - **Data Processing**: Apache Spark, Pandas
 - **ML Framework**: MLflow, scikit-learn
 - **Model Serving**: Flask, Gradio
 - **Pipeline Orchestration**: Apache Airflow
 - **Containerization**: Docker, Amazon ECR
-- **Cloud Infrastructure**: Amazon EMR, Amazon Redshift
+- **Clustering**: Amazon EMR
 
 
