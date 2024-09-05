@@ -1,0 +1,100 @@
+{
+  "cognitive": {
+    "patient_id": "INTEGER NOT NULL PRIMARY KEY",
+    "neuro_trax_date": "DATE NULL",
+    "neuro_trax_global": "FLOAT NULL",
+    "neuro_trax_memory": "FLOAT NULL",
+    "neuro_trax_info_speed": "FLOAT NULL"
+  },
+  "patients": {
+    "patient_id": "INTEGER NOT NULL PRIMARY KEY",
+    "dob": "DATE NULL",
+    "age": "FLOAT NULL",
+    "gender": "VARCHAR(10) NULL",
+    "diagnosis_date": "DATE NULL",
+    "ms_type": "VARCHAR(50) NULL",
+    "start": "DATE NULL",
+    "current_treat": "VARCHAR(255) NULL",
+    "report": "VARCHAR(1000) NULL",
+    "date_new": "DATE NULL",
+    "date_old": "DATE NULL",
+    "date_prev": "DATE NULL"
+  },
+  "edss": {
+    "patient_id": "INTEGER NOT NULL PRIMARY KEY",
+    "edss_prev_treatment": "FLOAT NULL",
+    "current_edss": "FLOAT NULL",
+    "date_new": "DATE NULL",
+    "date_prev": "DATE NULL",
+    "date_old": "DATE NULL"
+  },
+  "mri_measurements": {
+    "patient_id": "INTEGER NOT NULL PRIMARY KEY",
+    "type": "VARCHAR(50) NULL",
+    "lesion_new": "FLOAT NULL",
+    "lesion_old": "FLOAT NULL",
+    "wb_new": "FLOAT NULL",
+    "wb_old": "FLOAT NULL",
+    "new_vol_chang": "FLOAT NULL",
+    "new_new": "FLOAT NULL",
+    "new_enlarg": "FLOAT NULL",
+    "new_shrink_ing": "FLOAT NULL",
+    "new_a_ann_vol_chane": "FLOAT NULL",
+    "prev_whbr_vol_change": "FLOAT NULL",
+    "b_annual_lesion_vol_change_ib": "FLOAT NULL",
+    "d_annual_new_change_ib": "FLOAT NULL",
+    "c_annual_enlar_change_ib": "FLOAT NULL",
+    "new_nfl": "FLOAT NULL",
+    "new_nfl_date": "DATE NULL",
+    "new_pg_ml": "FLOAT NULL",
+    "new_nfl_z": "FLOAT NULL",
+    "old_nfl_date": "DATE NULL",
+    "old_nfl_pg_ml": "FLOAT NULL",
+    "old_nfl_z": "FLOAT NULL",
+    "dz": "FLOAT NULL",
+    "sdmt_date": "DATE NULL",
+    "sdmt_raw": "FLOAT NULL",
+    "sdmt_z": "FLOAT NULL",
+    "ravlt_cvlt_raw": "FLOAT NULL",
+    "ravlt_cvlt_z": "FLOAT NULL",
+    "cowat": "FLOAT NULL",
+    "cowat_z": "FLOAT NULL"
+  },
+  "mri_nfl": {
+    "patient_id": "INTEGER NOT NULL PRIMARY KEY",
+    "type": "VARCHAR(50) NULL",
+    "new_nfl": "FLOAT NULL",
+    "new_nfl_date": "DATE NULL",
+    "new_pg_ml": "FLOAT NULL",
+    "new_nfl_z": "FLOAT NULL",
+    "old_nfl_date": "DATE NULL",
+    "old_nfl_pg_ml": "FLOAT NULL",
+    "old_nfl_z": "FLOAT NULL"
+  },
+  "mri_simple": {
+    "patient_id": "INTEGER NOT NULL PRIMARY KEY",
+    "lesion_new": "FLOAT NULL",
+    "lesion_old": "FLOAT NULL",
+    "wb_new": "FLOAT NULL",
+    "wb_old": "FLOAT NULL"
+  },
+  "treatment": {
+    "patient_id": "INTEGER NOT NULL PRIMARY KEY",
+    "response": "VARCHAR(50) NULL",
+    "responder": "BOOLEAN NULL",
+    "current_treat": "VARCHAR(255) NULL",
+    "start": "DATE NULL",
+    "date_new": "DATE NULL",
+    "date_old": "DATE NULL"
+  },
+  "ml_ready": {
+    "patient_id": "INTEGER NOT NULL PRIMARY KEY",
+    "age": "FLOAT",
+    "gender": "VARCHAR(10) NOT NULL",
+    "ms_type": "VARCHAR(50) NOT NULL",
+    "lesion_new": "FLOAT NOT NULL",
+    "wb_new": "FLOAT NOT NULL",
+    "current_edss": "FLOAT NOT NULL",
+    "response": "VARCHAR(50) NOT NULL"
+  }
+}

@@ -1,0 +1,13 @@
+boto3
+botocore
+awswrangler
+awswrangler[redshift]
+pandas
+openpyxl
+pyspark
+mlflow
+apache-airflow
+gradio
+flask
+psutil
+tqdm

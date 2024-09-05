@@ -1,0 +1,26 @@
+{
+  "classification_models": [
+    "DecisionTreeClassifier",
+    "RandomForestClassifier",
+    "LogisticRegression",
+    "GBTClassifier"
+  ],
+  "hyperparameters": {
+    "DecisionTreeClassifier": {
+      "maxDepth": [5, 10, 15],
+      "minInstancesPerNode": [1, 2, 4]
+    },
+    "RandomForestClassifier": {
+      "numTrees": [10, 20, 30],
+      "maxDepth": [5, 10, 15]
+    },
+    "LogisticRegression": {
+      "regParam": [0.01, 0.1, 1.0],
+      "elasticNetParam": [0.0, 0.5, 1.0]
+    },
+    "GBTClassifier": {
+      "maxIter": [10, 20, 50],
+      "maxDepth": [3, 5, 7]
+    }
+  }
+}
