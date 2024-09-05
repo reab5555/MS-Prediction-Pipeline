@@ -1,7 +1,6 @@
 boto3
 botocore
 awswrangler
-awswrangler[redshift]
 pandas
 openpyxl
 pyspark
