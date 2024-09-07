@@ -7,7 +7,8 @@ from configs.utils import log_current_time
 
 def load_raw_data_from_s3():
     s3_client = get_s3_client()
-    file_key = 'MRI_NFL_cogn_Aug1-2024.xlsx'
+
+    file_key = 'file_key' # file name
 
     try:
         response = s3_client.get_object(Bucket=S3_CONFIG['bucket_name'], Key=file_key)
