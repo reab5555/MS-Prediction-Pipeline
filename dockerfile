@@ -10,6 +10,15 @@ COPY requirements.txt .
 # Install any needed packages specified in requirements.txt
 RUN pip install --no-cache-dir -r requirements.txt
 
+# Install AWS CLI
+RUN apt-get update && apt-get install -y \
+    curl \
+    unzip \
+    && curl "https://awscli.amazonaws.com/awscli-exe-linux-x86_64.zip" -o "awscliv2.zip" \
+    && unzip awscliv2.zip \
+    && ./aws/install \
+    && rm -rf awscliv2.zip aws
+
 # Copy the main script
 COPY main_pipeline.py .
 
@@ -27,6 +36,7 @@ COPY prepare_data/schemas/tables_schema.json prepare_data/schemas/
 COPY mlop/transform_ml.py mlop/
 COPY mlop/ml_train_eval.py mlop/
 COPY mlop/mlflow_config.py mlop/
+COPY mlop/ml_tuning.json mlop/
 COPY configs/utils.py configs/
 COPY configs/cloud_config.py configs/
 
