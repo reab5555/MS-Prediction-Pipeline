@@ -33,7 +33,7 @@ This project exemplifies a comprehensive ML engineering and MLOps framework, inc
     </td>
     <td>
       <table>
-        <img src="appendix/flow_simple.png.png" width="500">
+        <img src="appendix/flow_simple.png" width="500">
       </table>
     </td>
     <td>
@@ -43,8 +43,6 @@ This project exemplifies a comprehensive ML engineering and MLOps framework, inc
     </td>
   </tr>
 </table>
-
-<img src="appendix/ERD.png" width="500">
 
 #### 1. Data Engineering
 
