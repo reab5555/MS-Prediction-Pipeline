@@ -38,7 +38,7 @@ This project exemplifies a comprehensive ML engineering and MLOps framework, inc
     </td>
     <td>
       <table>
-        <img src="appendix/ERD.png" width="480">
+        <img src="appendix/ERD.png" width="460">
       </table>
     </td>
   </tr>
