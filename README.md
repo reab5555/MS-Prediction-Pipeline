@@ -39,6 +39,8 @@ This project exemplifies a comprehensive ML engineering and MLOps framework, inc
   </tr>
 </table>
 
+<img src="appendix/ERD.png" width="500">
+
 #### 1. Data Engineering
 
 Data Extraction: Utilizes Amazon S3 for raw data storage, demonstrating cloud-based data management.
