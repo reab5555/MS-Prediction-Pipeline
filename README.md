@@ -1,4 +1,4 @@
-# Multiple Sclerosis (MS) Prediction MRI Pipeline
+# Multiple Sclerosis (MS) Prediction Pipeline
 
 ## Project Overview
 
